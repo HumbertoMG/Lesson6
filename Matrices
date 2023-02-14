@@ -1,0 +1,12 @@
+# Defino arreglo de 9 posiciones
+matriz = np.array(range(0,9))
+# Lo redimensiono a matriz de 3*3
+matriz = np.reshape(matriz,(3,3))
+# Imprimo la matriz
+print(matriz)
+
+
+# Defino matriz identidad (6*6)
+identidad = np.identity(6)
+# Imprimo matriz
+print(identidad)
